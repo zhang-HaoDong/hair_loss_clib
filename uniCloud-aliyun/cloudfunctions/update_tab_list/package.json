@@ -1,0 +1,7 @@
+{
+  "name": "update_tab_list",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

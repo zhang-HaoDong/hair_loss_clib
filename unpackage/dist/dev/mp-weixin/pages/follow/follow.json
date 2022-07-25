@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "关注",
+  "navigationBarBackgroundColor": "#f25037",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "list-item": "/components/ListItem/ListItem",
+    "author-list": "/components/authorList/authorList"
+  }
+}

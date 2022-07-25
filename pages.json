@@ -1,0 +1,142 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/follow/follow",
+			"name":"follow",
+			"meta":{
+				"needLogin":true
+			},
+			"style": {
+				"navigationBarTitleText": "关注",
+				"navigationBarBackgroundColor": "#f25037",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/self/self",
+			"name":"self",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#f25037",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+
+		}, {
+			"path": "pages/userInfo/login/login",
+			"name": "login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#f25037",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/userInfo/Registration/Registration",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/labelAdmin/labelAdmin",
+			"style": {
+				"navigationBarTitleText": "标签管理",
+				"navigationBarBackgroundColor": "#f25037",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/blogDetail/blogDetail",
+			"style": {
+				"navigationBarTitleText": "文章详情页",
+				"navigationBarBackgroundColor": "#f25037",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/commentDetail/commentDetail",
+			"style": {
+				"navigationBarTitleText": "评论详情",
+				"navigationBarBackgroundColor": "#f25037",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		}
+	    ,{
+            "path" : "pages/myArticle/myArticle",
+			"meta":{
+				"needLogin":true
+			},
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "我的文章",
+               "navigationBarBackgroundColor": "#f25037",
+               "navigationBarTextStyle": "white",
+               "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/feedBack/feedBack",
+			"meta":{
+				"needLogin":true
+			},
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "意见反馈",
+               "navigationBarBackgroundColor": "#f25037",
+               "navigationBarTextStyle": "white",
+               "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#666",
+		"selectedColor": "#f25037",
+		"backgroundColor": "#fff",
+		"list": [ // 显示页面信息,包含了tabbar需要跳转的所有的页面信息
+			{
+				"pagePath": "pages/index/index", // 页面路径
+				"iconPath": "static/img/home.png", // 默认图片
+				"selectedIconPath": "static/img/home-active.png", // 选中图片
+				"text": "首页" // 文字描述信息
+			},
+			{
+				"pagePath": "pages/follow/follow",
+				"iconPath": "static/img/follow.png",
+				"selectedIconPath": "static/img/follow-active.png",
+				"text": "关注"
+			},
+			{
+				"pagePath": "pages/self/self",
+				"iconPath": "static/img/my.png",
+				"selectedIconPath": "static/img/my-active.png",
+				"text": "我的"
+			}
+		]
+	}
+}

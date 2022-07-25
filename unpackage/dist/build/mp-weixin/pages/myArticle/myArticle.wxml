@@ -1,0 +1,1 @@
+<view><block wx:if="{{articleList.length}}"><list-item vue-id="323b0a6a-1" isShowLoadMore="{{false}}" articleList="{{articleList}}" bind:__l="__l"></list-item></block><block wx:else><view class="no-data">暂无发布的文章</view></block></view>

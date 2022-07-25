@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "文章详情页",
+  "navigationBarBackgroundColor": "#f25037",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "comment-box": "/components/CommentBox/CommentBox",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "save-likes": "/components/SaveLikes/SaveLikes",
+    "comment-masker": "/components/CommentMasker/CommentMasker",
+    "u-parse": "/components/gaoyia-parse/parse"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "click_kudos",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

@@ -1,0 +1,48 @@
+.tabbar-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	white-space: nowrap;
+	width: 100%;
+	border-bottom: 1px solid #f5f5f5 ;
+	background-color: #fff;
+	box-sizing: border-box;
+	.tab-scroll{
+		flex: 1;
+		box-sizing: border-box;
+		height: 90rpx;
+		overflow: hidden;
+		.tab-scroll-box{
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			white-space: nowrap;
+			height: 90rpx;
+			box-sizing: border-box;
+			.tab-scroll-item{
+				flex-shrink: 0;
+				padding: 0 20rpx;
+				color: #333;
+				font-size: 28rpx;
+				&.active{
+					color: $base-color;
+				}
+			}
+		}
+	}
+	.tab-icon{
+		width: 90rpx;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&::after{
+			content: "";
+			 position: absolute;
+			height: 32rpx;
+			left: 0;
+			width: 2rpx;
+			background-color: #ddd;
+		}
+	}
+}

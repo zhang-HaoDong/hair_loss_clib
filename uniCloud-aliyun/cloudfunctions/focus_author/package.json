@@ -1,0 +1,7 @@
+{
+  "name": "focus_author",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
